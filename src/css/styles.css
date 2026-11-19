@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: #0F1018;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1a1b26;
+    border: 2px solid #32344a;
+    margin: 10px 10px 10px 10px;
+    height: calc(100vh - 20px);
+    width: 300px;
+}
+
+#projects {
+    background-color: #1a1b26;
+    border: 2px solid #32344a;
+    margin: 10px 10px 10px 0px;
+    height: calc(100vh - 20px);
+    width: 1000px;
+}
+
+#todos {
+    background-color: #1a1b26;
+    border: 2px solid #32344a;
+    margin: 10px 10px 10px 0px;
+    height: calc(100vh - 20px);
+    width: calc(100vw - 1300px);
+}

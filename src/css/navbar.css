@@ -1,0 +1,73 @@
+#navbar h1 {
+    padding: 20px 20px 0px 20px;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #787c99;
+}
+
+.navbar-project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar-project div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.project-colour {
+    background-color: #7aa2f7;
+    border-radius: 2px;
+    height: 12px;
+    width: 12px;
+}
+
+.navbar-project p {
+    color: #a9b1d6;
+    font-size: 1rem;
+}
+
+.navbar-project > p {
+    color: #787c99;
+    font-size: 0.9rem;
+}
+
+#new-project {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 20px 20px;
+    gap: 15px;
+}
+
+#new-project p {
+    color: #787c99;
+}
+
+#new-project button {
+    background-color: #1a1b26;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #787c99;
+    border: none;
+}
+
+#keybindings {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.8rem;
+    color: #444b6a;
+}
