@@ -1,0 +1,20 @@
+#projects > div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 49.5px 20px 0px 20px;
+    gap: 15px;
+}
+
+.project-colour-xl {
+    background-color: #7aa2f7;
+    border-radius: 2px;
+    height: 15px;
+    width: 15px;
+}
+
+#projects div p {
+    font-weight: 500;
+    font-size: 1.9rem;
+    color: #c0caf5;
+}
