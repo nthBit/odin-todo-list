@@ -1,8 +1,8 @@
-#projects > div {
+#project-title {
     display: flex;
     align-items: center;
     justify-items: center;
-    margin: 49.5px 20px 0px 20px;
+    margin: 49.5px 20px 5px 20px;
     gap: 15px;
 }
 
@@ -17,4 +17,13 @@
     font-weight: 500;
     font-size: 1.9rem;
     color: #c0caf5;
+}
+
+#project-counter {
+    margin: 0px 20px 20px 50px;
+    color: #787c99;
+}
+
+#bullet-point {
+    font-size: 0.7rem;
 }
